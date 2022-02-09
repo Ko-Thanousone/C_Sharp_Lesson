@@ -1,0 +1,4 @@
+ທ້າວ ສົມປະສົງ,System.Windows.Forms.Splitter, MinExtra: 25, MinSize: 25  ລັດຖະກອນ
+ນາງ ໄກອໍາພັນ,System.Windows.Forms.Splitter, MinExtra: 25, MinSize: 25  ແມ່ບ້ານ
+ທ້າວ ທະນູສິດ,System.Windows.Forms.Splitter, MinExtra: 25, MinSize: 25  ພັນສານຸວົງ
+ທ້າວ ມິກກີ້,System.Windows.Forms.Splitter, MinExtra: 25, MinSize: 25  ພະນັກງານ
