@@ -34,5 +34,44 @@ namespace chap1
         {
 
         }
+
+        private void ເພມຜໃຊລະບບໃໝToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void smexit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ຂມນປະເພດສນຄາToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmProductType frm = new frmProductType();
+            frm.MdiParent = this;
+            frm.WindowState = FormWindowState.Maximized;
+            frm.Show();
+        }
+
+        private void ຂມນສນຄາToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmProduct frm = new frmProduct();
+            frm.MdiParent = this;
+            frm.WindowState = FormWindowState.Maximized;
+            frm.Show();
+        }
+
+        private void ຂມນລກຄາToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCustomers frm = new frmCustomers();
+            frm.MdiParent = this;
+            frm.WindowState = FormWindowState.Maximized;
+            frm.Show();
+        }
     }
 }

@@ -55,7 +55,8 @@
             this.ລາຍງານການນາເຂາສນຄາToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ສະຫບລາຍງານລາຍຮບToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ລາຍງານToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ອອກຈາກໂປຣເເກຣມToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.smexit = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,7 +70,7 @@
             this.ຈດຊສນຄາToolStripMenuItem,
             this.ຂາຍສນຄາToolStripMenuItem,
             this.ສາງລາຍງານToolStripMenuItem,
-            this.ອອກຈາກໂປຣເເກຣມToolStripMenuItem});
+            this.smexit});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
@@ -95,6 +96,7 @@
             this.ເພມຜໃຊລະບບໃໝToolStripMenuItem.Name = "ເພມຜໃຊລະບບໃໝToolStripMenuItem";
             this.ເພມຜໃຊລະບບໃໝToolStripMenuItem.Size = new System.Drawing.Size(236, 36);
             this.ເພມຜໃຊລະບບໃໝToolStripMenuItem.Text = "ເພີ່ມຜູ້ໃຊ້ລະບົບໃໝ່";
+            this.ເພມຜໃຊລະບບໃໝToolStripMenuItem.Click += new System.EventHandler(this.ເພມຜໃຊລະບບໃໝToolStripMenuItem_Click);
             // 
             // ປຽນລະຫດຜານToolStripMenuItem
             // 
@@ -139,12 +141,14 @@
             this.ຂມນປະເພດສນຄາToolStripMenuItem.Name = "ຂມນປະເພດສນຄາToolStripMenuItem";
             this.ຂມນປະເພດສນຄາToolStripMenuItem.Size = new System.Drawing.Size(232, 36);
             this.ຂມນປະເພດສນຄາToolStripMenuItem.Text = "ຂໍ້ມູນປະເພດສິນຄ້າ";
+            this.ຂມນປະເພດສນຄາToolStripMenuItem.Click += new System.EventHandler(this.ຂມນປະເພດສນຄາToolStripMenuItem_Click);
             // 
             // ຂມນລກຄາToolStripMenuItem
             // 
             this.ຂມນລກຄາToolStripMenuItem.Name = "ຂມນລກຄາToolStripMenuItem";
             this.ຂມນລກຄາToolStripMenuItem.Size = new System.Drawing.Size(232, 36);
             this.ຂມນລກຄາToolStripMenuItem.Text = "ຂໍ້ມູນລູກຄ້າ";
+            this.ຂມນລກຄາToolStripMenuItem.Click += new System.EventHandler(this.ຂມນລກຄາToolStripMenuItem_Click);
             // 
             // ຂມນຜສະໜອງToolStripMenuItem
             // 
@@ -158,6 +162,7 @@
             this.ຂມນສນຄາToolStripMenuItem.Name = "ຂມນສນຄາToolStripMenuItem";
             this.ຂມນສນຄາToolStripMenuItem.Size = new System.Drawing.Size(232, 36);
             this.ຂມນສນຄາToolStripMenuItem.Text = "ຂໍ້ມູນສິນຄ້າ";
+            this.ຂມນສນຄາToolStripMenuItem.Click += new System.EventHandler(this.ຂມນສນຄາToolStripMenuItem_Click);
             // 
             // ຈດຊສນຄາToolStripMenuItem
             // 
@@ -264,13 +269,27 @@
             this.ລາຍງານToolStripMenuItem.Size = new System.Drawing.Size(291, 36);
             this.ລາຍງານToolStripMenuItem.Text = "ສະຫຼຸບລາຍງານລາຍຈ່າຍ";
             // 
-            // ອອກຈາກໂປຣເເກຣມToolStripMenuItem
+            // smexit
             // 
-            this.ອອກຈາກໂປຣເເກຣມToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("ອອກຈາກໂປຣເເກຣມToolStripMenuItem.Image")));
-            this.ອອກຈາກໂປຣເເກຣມToolStripMenuItem.Name = "ອອກຈາກໂປຣເເກຣມToolStripMenuItem";
-            this.ອອກຈາກໂປຣເເກຣມToolStripMenuItem.Size = new System.Drawing.Size(192, 70);
-            this.ອອກຈາກໂປຣເເກຣມToolStripMenuItem.Text = "ອອກຈາກໂປຣເເກຣມ";
-            this.ອອກຈາກໂປຣເເກຣມToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.smexit.Image = ((System.Drawing.Image)(resources.GetObject("smexit.Image")));
+            this.smexit.Name = "smexit";
+            this.smexit.Size = new System.Drawing.Size(192, 70);
+            this.smexit.Text = "ອອກຈາກໂປຣເເກຣມ";
+            this.smexit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.smexit.Click += new System.EventHandler(this.smexit_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(887, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(44, 31);
+            this.label1.TabIndex = 2;
+            this.label1.Text = ">>";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // frmMainMenu
             // 
@@ -278,11 +297,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(932, 501);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmMainMenu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmMainMenu";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmMainMenu_Load);
@@ -321,6 +342,7 @@
         private System.Windows.Forms.ToolStripMenuItem ລາຍງານການນາເຂາສນຄາToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ສະຫບລາຍງານລາຍຮບToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ລາຍງານToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ອອກຈາກໂປຣເເກຣມToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem smexit;
+        private System.Windows.Forms.Label label1;
     }
 }

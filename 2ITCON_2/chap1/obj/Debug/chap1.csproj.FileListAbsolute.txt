@@ -65,7 +65,6 @@ C:\Users\ASUS\Documents\Visual Studio 2012\Projects\2ITCON_2\chap1\obj\Debug\cha
 C:\Users\ASUS\Documents\Visual Studio 2012\Projects\2ITCON_2\chap1\obj\Debug\chap1.Form2.resources
 C:\Users\ASUS\Documents\Visual Studio 2012\Projects\2ITCON_2\chap1\obj\Debug\chap1.Form3.resources
 C:\Users\ASUS\Documents\Visual Studio 2012\Projects\2ITCON_2\chap1\obj\Debug\chap1.frmEX_Datetime.resources
-C:\Users\ASUS\Documents\Visual Studio 2012\Projects\2ITCON_2\chap1\obj\Debug\chap1.frmEX_ifelse.resources
 C:\Users\ASUS\Documents\Visual Studio 2012\Projects\2ITCON_2\chap1\obj\Debug\chap1.frmEX_listbox.resources
 C:\Users\ASUS\Documents\Visual Studio 2012\Projects\2ITCON_2\chap1\obj\Debug\chap1.frmEX_listview.resources
 C:\Users\ASUS\Documents\Visual Studio 2012\Projects\2ITCON_2\chap1\obj\Debug\chap1.frmEX_textfile.resources
@@ -83,3 +82,6 @@ C:\Users\ASUS\Documents\Visual Studio 2012\Projects\2ITCON_2\chap1\bin\Debug\min
 C:\Users\ASUS\Documents\Visual Studio 2012\Projects\2ITCON_2\chap1\bin\Debug\minPOdb_log.ldf
 C:\Users\ASUS\Documents\Visual Studio 2012\Projects\2ITCON_2\chap1\obj\Debug\chap1.frmProductType.resources
 C:\Users\ASUS\Documents\Visual Studio 2012\Projects\2ITCON_2\chap1\obj\Debug\chap1.frmProduct.resources
+C:\Users\ASUS\Documents\Visual Studio 2012\Projects\2ITCON_2\chap1\obj\Debug\chap1.frmCustomers.resources
+C:\Users\ASUS\Documents\Visual Studio 2012\Projects\2ITCON_2\chap1\obj\Debug\chap1.frmLogin.resources
+C:\Users\ASUS\Documents\Visual Studio 2012\Projects\2ITCON_2\chap1\obj\Debug\chap1.Report.resources

@@ -43,7 +43,7 @@ namespace chap1
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Form frmie = new frmEX_ifelse();
+            Form frmie = new frmLogin();
             frmie.Show();
         }
 

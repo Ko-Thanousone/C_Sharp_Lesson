@@ -16,7 +16,7 @@ namespace chap1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmProductType());
+            Application.Run(new frmMainMenu());
         }
     }
 }
